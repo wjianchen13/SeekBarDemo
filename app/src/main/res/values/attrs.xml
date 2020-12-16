@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="follow_seekbar">
+        <attr name="fs_margin_left" format="dimension" /> <!-- 进度条距离左侧按钮距离 -->
+        <attr name="fs_margin_right" format="dimension" /> <!-- 进度条距离右侧按钮距离 -->
+        <attr name="fs_text_size" format="dimension" /> <!-- 字体大小 -->
+        <attr name="fs_text_color" format="color" /> <!-- 字体颜色 -->
+        <attr name="fs_progressDrawable" format="reference" /> <!-- SeekBar的背景图片 -->
+        <attr name="fs_thumb" format="reference" /> <!-- 表示SeekBar的滑块图片 -->
+    </declare-styleable>
+
+</resources>

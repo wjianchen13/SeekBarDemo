@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+        
+    <TextView  
+        android:id="@+id/tv_progress" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textColor="#FF233845"
+        android:textSize="15sp"
+        android:background="#ff00ff00"
+        android:text="100"/>
+
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_progress" >
+
+        <ImageView
+            android:id="@+id/imgv_reduce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bg_reduce"
+            />
+        
+        <androidx.appcompat.widget.AppCompatSeekBar
+            android:id="@+id/ac_sbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imgv_reduce"
+            android:layout_toLeftOf="@id/imgv_add"
+            android:layout_centerVertical="true"
+            android:maxHeight="6dp"
+            android:max="100"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:progress="20"
+            android:background="@null"
+            android:splitTrack="false" />
+
+        <ImageView
+            android:id="@+id/imgv_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/bg_add"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>
