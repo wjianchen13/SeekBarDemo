@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".follow.FollowActivity" />
+        <activity android:name=".change.ChangeActivity" />
+
     </application>
 
 </manifest>

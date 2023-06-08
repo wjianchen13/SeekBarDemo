@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#000000"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent" >
+
+    <SeekBar
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:maxHeight="5dp"
+        android:minHeight="5dp"
+        android:thumbOffset="10dp"
+        android:thumb="@drawable/seekbar_thumb_material_anim"
+        android:progressDrawable="@drawable/seekbar_progress"
+        android:id="@+id/mainactivity_sb_seekbar"/>
+
+</RelativeLayout>

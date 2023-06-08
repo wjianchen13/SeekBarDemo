@@ -5,12 +5,27 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
     
-    <com.example.seekbardemo.follow.FollowSeekBar
-        android:id="@+id/fsb"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        app:fs_progressDrawable="@drawable/bg_bar"
-        app:fs_thumb="@drawable/thumb_bar"/>
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Seekbar 例子" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Seekbar 跟随进度条"
+        android:onClick="onTest1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Seekbar 拖动进度条变大"
+        android:onClick="onTest2"/>
 
 </LinearLayout>
