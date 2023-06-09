@@ -7,6 +7,7 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.seekbardemo.change.ChangeActivity;
+import com.example.seekbardemo.change.ChangeActivity2;
 import com.example.seekbardemo.follow.FollowActivity;
 
 public class MainActivity extends AppCompatActivity{
@@ -26,12 +27,21 @@ public class MainActivity extends AppCompatActivity{
     }
 
     /**
-     * Seekbar 拖动进度条变大
+     * Seekbar 拖动进度条变大，使用svg方式，不确定有没有兼容问题
      * @param v
      */
     public void onTest2(View v) {
         startActivity(new Intent(this, ChangeActivity.class));
     }
+
+    /**
+     * Seekbar 拖动进度条变大
+     * @param v
+     */
+    public void onTest3(View v) {
+        startActivity(new Intent(this, ChangeActivity2.class));
+    }
+
 
 }
 

@@ -28,4 +28,12 @@
         android:text="Seekbar 拖动进度条变大"
         android:onClick="onTest2"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Seekbar 拖动进度条变大"
+        android:onClick="onTest3"/>
+
 </LinearLayout>
