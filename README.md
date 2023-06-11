@@ -36,5 +36,9 @@ android:thumb="@null"
 android:duplicateParentState="true"
 ```
 
+# 参考文档
+Seekbar一个比较好用的库
+https://github.com/litao0621/nifty-slider
+
 
 

@@ -13,7 +13,6 @@
         android:minHeight="10dp"
         android:background="@null"
         android:progressDrawable="@drawable/seekbar_background_light_volueme"
-        android:thumb="@drawable/seekbar_light_volume_shape"
         android:thumbOffset="10dp" />
 
 </RelativeLayout>

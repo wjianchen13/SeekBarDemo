@@ -18,23 +18,23 @@ public class ChangeActivity2 extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_change2);
         sb_seekbar = (SeekBar) findViewById(R.id.mainactivity_sb_seekbar);
-//        sb_seekbar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
-//            @Override
-//            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-//
-//            }
-//
-//            @Override
-//            public void onStartTrackingTouch(SeekBar seekBar) {
-//                Drawable tumb_normal = ContextCompat.getDrawable(ChangeActivity2.this, R.drawable.seekbar_thum_pressed);
-//                sb_seekbar.setThumb(tumb_normal);
-//            }
-//
-//            @Override
-//            public void onStopTrackingTouch(SeekBar seekBar) {
-//                Drawable tumb_normal = ContextCompat.getDrawable(ChangeActivity2.this, R.drawable.seekbar_thum_normal);
-//                sb_seekbar.setThumb(tumb_normal);
-//            }
-//        });
+        sb_seekbar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {
+                Drawable tumb_normal = ContextCompat.getDrawable(ChangeActivity2.this, R.drawable.seekbar_thum_pressed);
+                sb_seekbar.setThumb(tumb_normal);
+            }
+
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+                Drawable tumb_normal = ContextCompat.getDrawable(ChangeActivity2.this, R.drawable.seekbar_thum_normal);
+                sb_seekbar.setThumb(tumb_normal);
+            }
+        });
     }
 }
