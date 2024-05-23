@@ -19,6 +19,10 @@
         <activity android:name=".follow.FollowActivity" />
         <activity android:name=".change.ChangeActivity" />
         <activity android:name=".change.ChangeActivity2" />
+        <activity android:name=".vertical_seekbar.VerticalSeekbarActivity" />
+        <activity android:name=".vertical_seekbar2.VerticalSeekbarActivity2" />
+        <activity android:name=".vertical_seekbar3.VerticalSeekbarActivity3" />
+        <activity android:name=".vertical_seekbar4.VerticalSeekbarActivity4" />
 
     </application>
 

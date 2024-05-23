@@ -9,9 +9,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        android:background="@null"
         android:maxHeight="10dp"
         android:minHeight="10dp"
-        android:background="@null"
         android:progressDrawable="@drawable/seekbar_background_light_volueme"
         android:thumbOffset="10dp" />
 

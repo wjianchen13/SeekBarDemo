@@ -9,6 +9,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.seekbardemo.change.ChangeActivity;
 import com.example.seekbardemo.change.ChangeActivity2;
 import com.example.seekbardemo.follow.FollowActivity;
+import com.example.seekbardemo.vertical_seekbar.VerticalSeekbarActivity;
+import com.example.seekbardemo.vertical_seekbar2.VerticalSeekbarActivity2;
+import com.example.seekbardemo.vertical_seekbar3.VerticalSeekbarActivity3;
+import com.example.seekbardemo.vertical_seekbar4.VerticalSeekbarActivity4;
 
 public class MainActivity extends AppCompatActivity{
     
@@ -40,6 +44,38 @@ public class MainActivity extends AppCompatActivity{
      */
     public void onTest3(View v) {
         startActivity(new Intent(this, ChangeActivity2.class));
+    }
+
+    /**
+     * 自定义垂直 Seekbar
+     * @param v
+     */
+    public void onTest4(View v) {
+        startActivity(new Intent(this, VerticalSeekbarActivity.class));
+    }
+
+    /**
+     * 自定义垂直 Seekbar
+     * @param v
+     */
+    public void onTest5(View v) {
+        startActivity(new Intent(this, VerticalSeekbarActivity2.class));
+    }
+
+    /**
+     * 自定义垂直 Seekbar
+     * @param v
+     */
+    public void onTest6(View v) {
+        startActivity(new Intent(this, VerticalSeekbarActivity3.class));
+    }
+
+    /**
+     * 自定义垂直 Seekbar
+     * @param v
+     */
+    public void onTest7(View v) {
+        startActivity(new Intent(this, VerticalSeekbarActivity4.class));
     }
 
 

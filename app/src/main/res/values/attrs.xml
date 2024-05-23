@@ -10,4 +10,22 @@
         <attr name="fs_thumb" format="reference" /> <!-- 表示SeekBar的滑块图片 -->
     </declare-styleable>
 
+    <declare-styleable name="VerticalSeekBar">
+        <attr name="vertical_color" format="color" />
+        <attr name="circle_radius" format="dimension" />
+        <attr name="circle_color" format="color" />
+        <attr name="dragable" format="boolean" />
+        <attr name="image_background" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomVerticalSeekBar">
+        <attr name="vertical_background_color" format="color" /> <!-- 进度背景颜色 -->
+        <attr name="vertical_progress_background_color" format="color" /> <!-- 有效进度背景颜色 -->
+        <attr name="vertical_circle_radius" format="dimension" />
+        <attr name="vertical_circle_color" format="color" />
+        <attr name="vertical_dragable" format="boolean" />
+        <attr name="vertical_image_background" format="reference" />
+        <attr name="vertical_background_width" format="dimension" />
+    </declare-styleable>
+
 </resources>

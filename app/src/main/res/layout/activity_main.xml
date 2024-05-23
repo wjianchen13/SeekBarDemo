@@ -17,6 +17,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:gravity="center"
+        android:textAllCaps="false"
         android:text="Seekbar 跟随进度条"
         android:onClick="onTest1"/>
 
@@ -25,6 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:gravity="center"
+        android:textAllCaps="false"
         android:text="Seekbar 拖动进度条变大"
         android:onClick="onTest2"/>
 
@@ -33,7 +35,44 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:gravity="center"
+        android:textAllCaps="false"
         android:text="Seekbar 拖动进度条变大"
         android:onClick="onTest3"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="自定义垂直 Seekbar"
+        android:onClick="onTest4"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="自定义垂直 Seekbar"
+        android:onClick="onTest5"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="自定义垂直 Seekbar"
+        android:onClick="onTest6"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="自定义垂直 Seekbar"
+        android:onClick="onTest7"/>
 
 </LinearLayout>
