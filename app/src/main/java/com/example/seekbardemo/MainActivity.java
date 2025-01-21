@@ -14,6 +14,7 @@ import com.example.seekbardemo.vertical_seekbar2.VerticalSeekbarActivity2;
 import com.example.seekbardemo.vertical_seekbar3.VerticalSeekbarActivity3;
 import com.example.seekbardemo.vertical_seekbar4.VerticalSeekbarActivity4;
 import com.example.seekbardemo.vertical_seekbar5.VerticalSeekbarActivity5;
+import com.example.seekbardemo.vertical_seekbar6.VerticalSeekbarActivity6;
 
 public class MainActivity extends AppCompatActivity{
     
@@ -85,6 +86,14 @@ public class MainActivity extends AppCompatActivity{
      */
     public void onTest8(View v) {
         startActivity(new Intent(this, VerticalSeekbarActivity5.class));
+    }
+
+    /**
+     * 自定义垂直 Seekbar
+     * @param v
+     */
+    public void onTest9(View v) {
+        startActivity(new Intent(this, VerticalSeekbarActivity6.class));
     }
 
 

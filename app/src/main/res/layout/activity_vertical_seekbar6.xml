@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <com.example.seekbardemo.vertical_seekbar6.VerticalSeekBar
+        android:layout_height="156dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/sb"
+        android:background="#ff0000"
+        app:ddkkyuuy_vertical_image_background="@drawable/djkkihyo_bingo_ddatmp_ic_room_music_volume_thumb_ttmpgy"
+        android:layout_width="48dp"
+        app:ddkkyuuy_vertical_dragable="true"
+        app:ddkkyuuy_vertical_background="@drawable/bg_vertical_seekbar"
+        app:ddkkyuuy_vertical_background_width="6dp"
+        app:ddkkyuuy_vertical_progress_background_color="#ff448bf4"
+        app:ddkkyuuy_vertical_circle_radius="10dp"
+        app:ddkkyuuy_vertical_start_color="#4CFF91"
+        app:ddkkyuuy_vertical_end_color="#FDF21D"
+        />
+
+    <com.example.seekbardemo.vertical_seekbar6.RoundRectView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="#ff00ff00"
+        android:layout_marginTop="10dp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="初始化 Seekbar"
+        android:onClick="onTest1"/>
+
+</LinearLayout>

@@ -35,4 +35,17 @@
         <attr name="UISeekBarProgressDrawable" format="reference" />
     </declare-styleable>
 
+    <declare-styleable name="Fgki8ylkCustomVerticalSeekBar">
+        <attr name="ddkkyuuy_vertical_circle_radius" format="dimension" />
+        <attr name="ddkkyuuy_vertical_background_color" format="color|reference" /> <!-- 进度背景颜色 -->
+        <attr name="ddkkyuuy_vertical_progress_background_color" format="color|reference" /> <!-- 有效进度背景颜色 -->
+        <attr name="ddkkyuuy_vertical_background_width" format="dimension" />
+        <attr name="ddkkyuuy_vertical_circle_color" format="color" />
+        <attr name="ddkkyuuy_vertical_dragable" format="boolean" />
+        <attr name="ddkkyuuy_vertical_image_background" format="reference" />
+        <attr name="ddkkyuuy_vertical_background" format="reference" />
+        <attr name="ddkkyuuy_vertical_start_color" format="color" />
+        <attr name="ddkkyuuy_vertical_end_color" format="color" />
+    </declare-styleable>
+
 </resources>

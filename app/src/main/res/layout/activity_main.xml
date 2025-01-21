@@ -75,7 +75,6 @@
         android:text="自定义垂直 Seekbar"
         android:onClick="onTest7"/>
 
-
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -84,5 +83,14 @@
         android:textAllCaps="false"
         android:text="自定义垂直 Seekbar"
         android:onClick="onTest8"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="自定义垂直 Seekbar"
+        android:onClick="onTest9"/>
 
 </LinearLayout>
