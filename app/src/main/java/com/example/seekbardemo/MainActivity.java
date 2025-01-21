@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.seekbardemo.change.ChangeActivity;
 import com.example.seekbardemo.change.ChangeActivity2;
 import com.example.seekbardemo.follow.FollowActivity;
+import com.example.seekbardemo.test1.TestActivity1;
 import com.example.seekbardemo.vertical_seekbar.VerticalSeekbarActivity;
 import com.example.seekbardemo.vertical_seekbar2.VerticalSeekbarActivity2;
 import com.example.seekbardemo.vertical_seekbar3.VerticalSeekbarActivity3;
@@ -94,6 +95,14 @@ public class MainActivity extends AppCompatActivity{
      */
     public void onTest9(View v) {
         startActivity(new Intent(this, VerticalSeekbarActivity6.class));
+    }
+
+    /**
+     * 水平Seekbar
+     * @param v
+     */
+    public void onTest10(View v) {
+        startActivity(new Intent(this, TestActivity1.class));
     }
 
 

@@ -25,6 +25,7 @@
         <activity android:name=".vertical_seekbar4.VerticalSeekbarActivity4" />
         <activity android:name=".vertical_seekbar5.VerticalSeekbarActivity5" />
         <activity android:name=".vertical_seekbar6.VerticalSeekbarActivity6" />
+        <activity android:name=".test1.TestActivity1" />
 
     </application>
 
