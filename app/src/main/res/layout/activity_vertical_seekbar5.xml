@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <com.example.seekbardemo.vertical_seekbar5.SeekBarVertical
+        android:layout_width="96dp"
+        android:layout_height="216dp"
+        app:UISeekBarIcon="@drawable/ic_thumb"
+        app:UISeekBarMax="100"
+        app:UISeekBarProgress="1"
+        android:background="#00ff0000"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="60dp"
+        app:vertical_dragable="true"
+        app:vertical_image_background="@drawable/ic_thumb1"
+        app:vertical_background_width="10dp"
+        app:vertical_progress_background_color="@color/colorAccent"
+        app:vertical_background_color="@color/colorPrimary"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="初始化 Seekbar"
+        android:onClick="onTest1"/>
+
+</LinearLayout>

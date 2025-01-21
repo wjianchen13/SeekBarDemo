@@ -23,6 +23,8 @@
         <activity android:name=".vertical_seekbar2.VerticalSeekbarActivity2" />
         <activity android:name=".vertical_seekbar3.VerticalSeekbarActivity3" />
         <activity android:name=".vertical_seekbar4.VerticalSeekbarActivity4" />
+        <activity android:name=".vertical_seekbar5.VerticalSeekbarActivity5" />
+
 
     </application>
 

@@ -28,4 +28,11 @@
         <attr name="vertical_background_width" format="dimension" />
     </declare-styleable>
 
+    <declare-styleable name="SeekBarVertical">
+        <attr name="UISeekBarProgress" format="integer" />
+        <attr name="UISeekBarMax" format="integer" />
+        <attr name="UISeekBarIcon" format="reference" />
+        <attr name="UISeekBarProgressDrawable" format="reference" />
+    </declare-styleable>
+
 </resources>
